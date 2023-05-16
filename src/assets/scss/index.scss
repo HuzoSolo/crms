@@ -1,0 +1,226 @@
+@import "breakpoints.scss";
+@import "colors.scss";
+@import "variables.scss";
+
+
+.row {
+
+    margin: 0px !important;
+
+}
+
+.sidebar {
+    list-style: none;
+}
+
+ol, ul {
+    padding-left: 0rem !important;
+}
+
+.btn:focus {
+
+    box-shadow: none !important;
+
+}
+
+
+
+.sideBar {
+
+    height: 100%;
+    width: $sidebar-width;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px $bc-mozilla-3;
+    padding-left: 0%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tabs{
+
+    margin-bottom: 50%;
+
+}
+
+.btnbox {
+
+    margin-bottom: 18%;
+
+}
+
+
+.customside {
+
+    border-color: $darker-color;
+    color: white;
+    background-color: $darker-color;
+    outline: none;
+
+    width: $sidebar-width - 10;
+    height: $sidebar-width/2;
+
+}
+
+.customside:hover {
+
+    color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px $darker-color-soft;
+    outline: none;
+
+}
+
+.customside:focus {
+
+    outline: none !important;
+
+}
+
+
+.bootstrap-select .btn:focus {
+    outline: 0 !important;
+
+}
+
+
+.btnico {
+
+    font-size: $button-font-size;
+    color: $darker-color;
+}
+
+
+
+.opt:hover {
+
+    background-color: $primary-color-soft !important;
+    color: white;
+
+}
+
+.opt:active {
+
+    background-color: $primary-color !important;
+    color: white;
+
+}
+
+hr {
+
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+
+.dropup {
+
+    outline: none !important;
+    border: none !important;
+
+}
+
+
+.title {
+
+    padding-top: 4%;
+    font-size: 48pt;
+    font-style: italic !important;
+}
+
+
+img.logo {
+
+    display: flex;
+    position: relative;
+    object-fit: contain;
+
+    width: 70%;
+
+    padding: 5%;
+
+    margin: 10%;
+
+}
+
+
+.welcomeTag{
+
+    margin-left: 4%;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 500;
+
+}
+
+.calendarTag{
+
+    margin-right: 3%;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 500;
+
+}
+
+
+.custom {
+
+    border-color: $darker-color;
+    color: white !important;
+    background-color: $darker-color !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px $darker-color-soft;
+
+}
+
+.custom:active {
+
+    border-color: $darker-color;
+    color: white !important;
+    background-color: $darker-color !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px $darker-color-soft;
+
+}
+
+.custom:hover {
+
+    border-style: solid;
+    border-color: $primary-color;
+    color: $darker-color !important;
+    background-color: white !important;
+
+}
+
+
+
+
+.floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: $floating-button-size;
+  height: $floating-button-size;
+  border-radius: 50%;
+  background-color: $floating-button-bg-color;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  a {
+    margin-top: 20%;
+    display: inline-block;
+    font-size: 24px;
+    color: $floating-button-text-color;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: $floating-button-text-color;
+  }
+}
+

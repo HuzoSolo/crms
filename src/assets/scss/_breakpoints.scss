@@ -1,0 +1,78 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+
+    .sidebar {
+
+        display: none;
+ 
+     }
+
+}
+
+
+
+@media (min-width: 576px) {
+
+    .sidebar {
+
+       display: none;
+
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+    .sidebar {
+
+        display: none;
+ 
+     }
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    .sidebar {
+
+        display: block;
+ 
+     }
+
+
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+    .sidebar {
+
+        display: block;
+ 
+     }
+
+
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+
+    .sidebar {
+
+        display: block;
+ 
+     }
+
+
+
+}

@@ -1,12 +1,5 @@
 <template>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <div class="" id="app">
+<div class="" id="app">
     <div class="row">
       <!-- left side -->
       <div class="col-sm-1 col-m-1 col-lg-1 col-xl-1 rounded-3">
@@ -21,16 +14,33 @@
       </div>
     </div>
     <floatingButton></floatingButton>
-  </div> 
-  <router-view/>
+  </div>
 </template>
 
-<script> 
-  export default {
+<script>
 
-  };
+import mainFlow from '/src/components/mainFlow.vue';
+import sideBar from '/src/components/sideBar.vue';
+import floatingButton from '/src/components/floatingButton.vue';
+
+export default {
+  data() {
+    return {
+      user: {
+        name: this.$route.params.email,
+        id: 1,
+      },
+    };
+  },
+ components: {
+  mainFlow,
+  sideBar,
+  floatingButton,
+ },
+};
+
 </script>
 
 <style lang="scss">
-@import "./assets/scss/index.scss";
+
 </style>
