@@ -4,7 +4,8 @@
         <tr>
           <th><h1>öğrenci id</h1></th>
           <th><h1>Ödeme Tarihi</h1></th>
-          <th><h1>Miktar</h1></th>
+          <th><h1>Açıklama</h1></th>
+          <th><h1>Sınıf Kodu</h1></th>
           <th><h1>Sil</h1></th>
         </tr>
       </thead>
@@ -12,14 +13,16 @@
         <tr>
           <td>202034</td>
           <td>12-12-2020</td>
-          <td>15.000$</td>
+          <td>%50 burslu (memur çocuğu)</td>
+          <td>332-A</td>
           <td><button class="btn custom"><i class="fa-solid fa-trash-can"></i></button></td>
         </tr>
   
         <tr>
           <td>202056</td>
           <td>26-07-2023</td>
-          <td>12.000$</td>
+          <td>Tam ücret ödendi</td>
+          <td>443-D</td>
           <td><button class="btn custom"><i class="fa-solid fa-trash-can"></i></button></td>
         </tr>
       </tbody>

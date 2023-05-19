@@ -8,6 +8,7 @@
 import courseCard from "./courseCard.vue";
 
 export default {
+  
   components: {
     courseCard,
   },

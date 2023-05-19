@@ -19,6 +19,16 @@
                             <!-- <span>Dersler</span> -->
                         </a>
                     </li>
+
+                    <!-- section -->
+                    <li>
+                        <a href="#sections" class="btn customside btnbox">
+                            <i class="fa-solid fa-people-group btnico pt-2"></i>
+                            
+                            <!-- <span>Gruplar</span> -->
+                        </a>
+                    </li>
+                    
                     <!-- teachers -->
                     <li>
                         <a href="#teachers" class="btn customside btnbox">

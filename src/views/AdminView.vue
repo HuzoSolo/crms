@@ -14,6 +14,8 @@
             <saluteUser class="" id="#"></saluteUser>
             <!--Courses-->
             <adminCoursesSectionVue class="tab" id="courses"></adminCoursesSectionVue>
+            <!--Sections-->
+            <adminSectionsSectionVue class="tab" id="sections"></adminSectionsSectionVue>
             <!--Teachers-->
             <adminTeachersSectionVue class="tab" id="teachers"></adminTeachersSectionVue>
             <!--Students-->
@@ -34,6 +36,7 @@ import adminCoursesSectionVue from '@/components/adminCoursesSection.vue'
 import adminStudentSectionVue from '@/components/adminStudentSection.vue'
 import adminTeachersSectionVue from '@/components/adminTeachersSection.vue'
 import adminPaymentsSectionVue from '@/components/adminPaymentsSection.vue'
+import adminSectionsSectionVue from '@/components/adminSectionsSection.vue'
 
 
 export default {
@@ -44,6 +47,7 @@ export default {
         adminStudentSectionVue,
         adminTeachersSectionVue,
         adminPaymentsSectionVue,
+        adminSectionsSectionVue,
         
     }
 }

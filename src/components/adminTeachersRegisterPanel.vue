@@ -8,25 +8,44 @@
           
       <label for="surname">Soyad:</label>
       <input type="text" id="surname" name="surname" required>
-          
-      <label for="address">Adres:</label>
-      <input type="text" id="address" name="address" required>
+
+      <label for="picture">Resim:</label>
+      <input class="form-control" type="file" id="picture" name="picture">
+
+      <label for="gender">Cinsiyet:</label>
+        <select id="gender" name="gender" required>
+        <option value="" disabled selected>Seçiniz</option>
+        <option value="0">Kadın</option>
+        <option value="1">Erkek</option>
+    </select>
+
+    <label for="marital-status">Medeni Hal:</label>
+        <select id="marital-status" name="marital-status" required>
+        <option value="" disabled selected>Seçiniz</option>
+        <option value="0">Evli</option>
+        <option value="1">Bekar</option>
+    </select>
   
+      <label for="edu-status">Eğitim durumu:</label>
+      <input type="text" id="edu-status" name="edu-status" required>
+
+      <label for="uni-name">Üniversite Adı:</label>
+      <input type="email" id="uni-name" name="uni-name">
+
       <label for="birthdate">Doğum Tarihi:</label>
       <input type="date" id="birthdate" name="birthdate" required>
   
-      <label for="class-code">Sınıf Kodu:</label>
-      <input type="text" id="class-code" name="class-code" required>
-  
-      <label for="class-level">Branş:</label>
-      <select id="class-level" name="class-level" required>
+      <label for="email">E-posta:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Telefon:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="personal-type">Pozisyon:</label>
+      <select id="personal-type" name="personal-type" required>
         <option value="" disabled selected>Seçiniz</option>
-        <option value="1">branş1</option>
-        <option value="2">branş2</option>
-        <option value="3">branş3</option>
-        <option value="4">branş4</option>
-        <option value="5">branş5</option>
-        <option value="6">branş6</option>
+        <option value="1">Öğretmen</option>
+        <option value="2">Asistan</option>
       </select>
   
       <button type="submit">Kaydet</button>

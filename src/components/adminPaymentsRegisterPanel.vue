@@ -8,11 +8,8 @@
       <label for="paymentDate">Ödeme Tarihi:</label>
       <input type="date" id="paymentDate" name="paymentDate" required>
 
-      <label for="description">Açıklama:</label>
-      <input type="text" id="description" name="description" required>
-  
-      <label for="class-code">Sınıf Kodu:</label>
-      <input type="text" id="class-code" name="class-code" required>
+      <label for="amount">Miktar:</label>
+      <input type="text" id="amount" name="amount" required>
   
       <button type="submit">Kaydet</button>
     </form>
