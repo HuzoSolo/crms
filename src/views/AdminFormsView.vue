@@ -27,6 +27,7 @@
         </div>
       </div>
     </div>
+    <floatingButton @click="pushAdminForms"></floatingButton>
   </div>
 </template>
 
@@ -37,6 +38,7 @@ import formsCategory from "@/components/formsCategory.vue";
 import formsClass from "@/components/formsClass.vue";
 import formsSubject from "@/components/formsSubject.vue";
 import formsUnit from "@/components/formsUnit.vue";
+import floatingButton from '/src/components/floatingButton.vue';
 
 export default {
   components: {
@@ -46,11 +48,14 @@ export default {
     formsClass,
     formsSubject,
     formsUnit,
+    floatingButton,
   },
   methods: {
-    function() {
-      this.$router.push("/admin");
-    },
+    //push the admin/forms route
+    pushAdminForms() {
+       this.$router.push("/admin");
+
+     },
   },
 
 };

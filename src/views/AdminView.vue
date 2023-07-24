@@ -23,6 +23,7 @@
             <!--Payments-->
             <adminPaymentsSectionVue class="tab" id="payments"></adminPaymentsSectionVue>
             <!--settings-->
+            <floatingButton @click="pushAdminForms"></floatingButton>
         </div>
         </div>
     
@@ -37,6 +38,7 @@ import adminStudentSectionVue from '@/components/adminStudentSection.vue'
 import adminTeachersSectionVue from '@/components/adminTeachersSection.vue'
 import adminPaymentsSectionVue from '@/components/adminPaymentsSection.vue'
 import adminSectionsSectionVue from '@/components/adminSectionsSection.vue'
+import floatingButton from '@/components/floatingButton.vue';
 
 
 export default {
@@ -48,8 +50,15 @@ export default {
         adminTeachersSectionVue,
         adminPaymentsSectionVue,
         adminSectionsSectionVue,
+        floatingButton,
         
-    }
+    },
+    methods: {
+        //push the admin/forms route
+        pushAdminForms() {
+            this.$router.push('/admin/forms');
+        },
+    },  
 }
 </script>
 
