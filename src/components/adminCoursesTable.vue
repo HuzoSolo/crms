@@ -2,10 +2,12 @@
     <table class="container m-5">
       <thead>
         <tr>
-          <th><h1>Kurs Adı</h1></th>
-          <th><h1>Eğitmen</h1></th>
-          <th><h1>Sınıf Kodu</h1></th>
-          <th><h1>Tarih</h1></th>
+          <th><h1>Kategori</h1></th>
+          <th><h1>Ders</h1></th>
+          <th><h1>Ünite</h1></th>
+          <th><h1>Konu</h1></th>
+          <th><h1>Araç</h1></th>
+          <th><h1>Düzey</h1></th>
           <th><h1>Sil</h1></th>
         </tr>
       </thead>
@@ -14,6 +16,8 @@
           <td>{{ course1.name }}</td>
           <td>{{ course1.teacher }}</td>
           <td>{{ course1.id }}</td>
+          <td>{{ course1.date }}</td>
+          <td>{{ course1.date }}</td>
           <td>{{ course1.date }}</td>
           <td><button class="btn custom"><i class="fa-solid fa-trash-can"></i></button></td>
         </tr>

@@ -1,0 +1,191 @@
+@media (min-width: 0px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .sidebar {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .sidebar {
+    display: block;
+  }
+}
+.row {
+  margin: 0px !important;
+}
+
+.sidebar {
+  list-style: none;
+}
+
+ol, ul {
+  padding-left: 0rem !important;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.sideBar {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 10px #444547;
+  padding-left: 0%;
+  border-right: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  margin-bottom: 50%;
+}
+
+.btnbox {
+  margin-bottom: 18%;
+}
+
+.customside {
+  border-color: #b1352f;
+  color: white;
+  background-color: #b1352f;
+  outline: none;
+  width: 110px;
+  height: 60px;
+}
+
+.customside:hover {
+  color: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px rgba(177, 54, 47, 0.631372549);
+  outline: none;
+}
+
+.customside:focus {
+  outline: none !important;
+}
+
+.bootstrap-select .btn:focus {
+  outline: 0 !important;
+}
+
+.btnico {
+  font-size: 20pt;
+  color: #b1352f;
+}
+
+.opt:hover {
+  background-color: rgba(193, 57, 50, 0.5568627451) !important;
+  color: white;
+}
+
+.opt:active {
+  background-color: #c13832 !important;
+  color: white;
+}
+
+hr {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.dropup {
+  outline: none !important;
+  border: none !important;
+}
+
+.title {
+  padding-top: 4%;
+  font-size: 48pt;
+  font-style: italic !important;
+}
+
+img.logo {
+  display: flex;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 70%;
+  padding: 5%;
+  margin: 10%;
+}
+
+.welcomeTag {
+  margin-left: 4%;
+  text-align: center;
+  font-size: 25pt;
+  font-weight: 500;
+}
+
+.calendarTag {
+  margin-right: 3%;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.custom {
+  border-color: #b1352f;
+  color: white !important;
+  background-color: #b1352f !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px rgba(177, 54, 47, 0.631372549);
+}
+
+.custom:active {
+  border-color: #b1352f;
+  color: white !important;
+  background-color: #b1352f !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px rgba(177, 54, 47, 0.631372549);
+}
+
+.custom:hover {
+  border-style: solid;
+  border-color: #c13832;
+  color: #b1352f !important;
+  background-color: white !important;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #c13832;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.floating-button a {
+  margin-top: 20%;
+  display: inline-block;
+  font-size: 24px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.floating-button a:hover {
+  color: whitesmoke;
+}/*# sourceMappingURL=index.css.map */

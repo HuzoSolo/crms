@@ -3,7 +3,7 @@
         <div class="logo">
                 <a href="#" class="logobox ">
 
-                    <img src="/src/assets/img/crms-transparent-logo.png" alt="" class="logo">
+                    <img src="../../src/assets/img/crms-transparent-logo.png" alt="" class="logo">
 
                 </a>
             </div>

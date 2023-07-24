@@ -1,5 +1,5 @@
 <template>
-    <h3>Ders Kayıt Formu</h3>
+    <h3>Kurs Kayıt Formu</h3>
     <form id="course-form">
       <label for="name">Kurs Adı:</label>
       <input type="text" id="name" name="name" required>

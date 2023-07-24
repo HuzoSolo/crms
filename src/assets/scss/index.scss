@@ -34,8 +34,10 @@ ol, ul {
     top: 0;
     left: 0;
     background-color: whitesmoke;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 20px $bc-mozilla-3;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 10px $bc-mozilla-3;
     padding-left: 0%;
+
+    border-right: none !important;
 
     display: flex;
     flex-direction: column;

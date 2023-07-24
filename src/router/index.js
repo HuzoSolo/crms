@@ -3,6 +3,7 @@ import StudentView from '../views/StudentView.vue'
 import TeacherView from '../views/TeacherView.vue'
 import AdminView from '../views/AdminView.vue'
 import LoginView from '../views/LoginView.vue'
+import AdminForms from '../views/AdminFormsView.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/admin',
     name: 'Admin',
     component: AdminView
+  },
+  {
+    path: '/admin/forms',
+    name: 'AdminForms',
+    component: AdminForms
   },
   {
     path: '/login',

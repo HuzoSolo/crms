@@ -4,7 +4,7 @@
         <div class="sidebox wrapper col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
 
             <div class="animation p-0">
-                <img class="crmslogo" src="/src/assets/img/crms-transparent-logo.png" alt="CRMS">
+                <img class="crmslogo" src="../../src/assets/img/crms-transparent-logo.png" alt="CRMS">
             </div>
 
             <!--bubbles-->
@@ -61,7 +61,7 @@
 
                             <div class="col">
                                 <div class="logo">
-                                    <img src="/src/assets/img/robotum_logo.png" alt="" style="width: 235px;
+                                    <img src="../../src/assets/img/robotum_logo.png" alt="" style="width: 235px;
                                     height: 51px;">
                                 </div>
                             </div>

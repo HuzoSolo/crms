@@ -71,8 +71,7 @@
 
     <label for="groupid">Grup ID:</label>
     <input type="number" id="groupid" name="groupid" required />
-
-    
+   
     <button type="submit">Kaydet</button>
   </form>
 
@@ -80,7 +79,10 @@
 </template>
   
   <script>
-export default {};
+export default {
+
+
+};
 </script>
   
   <style lang="scss" scoped>
